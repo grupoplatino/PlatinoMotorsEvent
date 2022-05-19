@@ -1,0 +1,7 @@
+.custome-divider {
+    min-height: 20px;
+    width: fit-content;
+    flex-direction: row;
+    flex-grow: initial;
+    color: RGB(221, 3, 6)
+}
