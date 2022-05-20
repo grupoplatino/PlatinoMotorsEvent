@@ -4,13 +4,13 @@ import Image from 'react-bootstrap/Image';
 
 const Body = () => {
     return (
-        <Container>
+        <Container fluid>
             <Row>
                 <Col>
                     <Card className="text-center"
                         style={{
                             opacity: 3,
-                            display: 'flexbox',
+                            display: 'flex',
                             marginTop: '5%',
                             marginLeft: '10%',
                             borderRadius: '25px',
@@ -79,6 +79,7 @@ const Body = () => {
                                 dispal: 'flex',
                                 height: '40px',
                                 background: "#F72F26",
+
                             }}
                         >
                             <h5
@@ -96,14 +97,15 @@ const Body = () => {
                 <Col>
                     <Image fluid
                         style={{
-                            width: '80%',
-                            // height: '80%',
+                            width: '70%',
+                            height: '95%',
                             background: 'transparent',
+                            objectfit: 'contain',
                             opacity: 3,
-                            display: 'flexbox',
+                            // display: 'flexbox',
                             marginTop: '5%',
-                            borderRadius: '25px',
                             marginRight: '10%',
+                            borderRadius: '25px',
                         }}
                         src='https://grupoplatino.blob.core.windows.net/develop/excavadora2.png' className='img-fluid shadow-4' alt='Sany' />
                 </Col>

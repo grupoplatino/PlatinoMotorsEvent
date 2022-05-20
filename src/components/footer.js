@@ -12,7 +12,7 @@ const Footer = () => {
                 style={{
                     flex: 1,
                     height: '10px',
-                    width: '100%',
+                    // width: '100%',
                     opacity: 1,
                     borderRadius: '25px',
                     background: '#F72F26',
