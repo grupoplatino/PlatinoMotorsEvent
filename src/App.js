@@ -1,15 +1,17 @@
-// import logo from './assets/sany.png';
+
 import './App.css';
 import Body from './components/body';
 import Footer from './components/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="body"></div>
-      <Body />
-      <Footer />
+      <header calssName="App-header">
+        <Body />
+        <Footer />
+      </header>
     </div >
   );
 }
