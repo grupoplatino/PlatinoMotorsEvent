@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PlatinoMotorsEvent/static/css/main.9a3bf29f.css",
+    "main.css": "/PlatinoMotorsEvent/static/css/main.8a2fe495.css",
     "main.js": "/PlatinoMotorsEvent/static/js/main.54f079ba.js",
     "static/js/787.7c4dfacb.chunk.js": "/PlatinoMotorsEvent/static/js/787.7c4dfacb.chunk.js",
     "index.html": "/PlatinoMotorsEvent/index.html",
-    "main.9a3bf29f.css.map": "/PlatinoMotorsEvent/static/css/main.9a3bf29f.css.map",
+    "main.8a2fe495.css.map": "/PlatinoMotorsEvent/static/css/main.8a2fe495.css.map",
     "main.54f079ba.js.map": "/PlatinoMotorsEvent/static/js/main.54f079ba.js.map",
     "787.7c4dfacb.chunk.js.map": "/PlatinoMotorsEvent/static/js/787.7c4dfacb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a3bf29f.css",
+    "static/css/main.8a2fe495.css",
     "static/js/main.54f079ba.js"
   ]
 }
