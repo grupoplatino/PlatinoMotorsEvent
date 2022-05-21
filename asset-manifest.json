@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/platino_motors_event/static/css/main.9a3bf29f.css",
+    "main.js": "/platino_motors_event/static/js/main.df784ac0.js",
+    "static/js/787.7c4dfacb.chunk.js": "/platino_motors_event/static/js/787.7c4dfacb.chunk.js",
+    "index.html": "/platino_motors_event/index.html",
+    "main.9a3bf29f.css.map": "/platino_motors_event/static/css/main.9a3bf29f.css.map",
+    "main.df784ac0.js.map": "/platino_motors_event/static/js/main.df784ac0.js.map",
+    "787.7c4dfacb.chunk.js.map": "/platino_motors_event/static/js/787.7c4dfacb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a3bf29f.css",
+    "static/js/main.df784ac0.js"
+  ]
+}
