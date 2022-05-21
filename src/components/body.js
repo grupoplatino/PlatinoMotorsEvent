@@ -13,7 +13,7 @@ const Body = () => {
                     <Card className="text-center"
                         style={{
                             opacity: 3,
-                            height: '90%',
+                            // height: '90%',
                             display: 'flex',
                             marginTop: '15%',
                             borderRadius: '25px',
@@ -21,12 +21,12 @@ const Body = () => {
                         }}
                     >
 
-                        <Card.Body fluid>
+                        <Card.Body >
                             <Card.Title
                                 style={{
                                     color: "black",
                                     fontSize: 30,
-                                    marginTop: '3.5em',
+                                    marginTop: '1.5em',
                                     fontWeight: "bolder",
                                     fontfamily: "Josefin Sans Bungee Inline",
                                 }}
@@ -100,13 +100,12 @@ const Body = () => {
                 <Col xs="12" sm="12" md="6">
                     <Image fluid
                         style={{
-                            // width: '70%',
+                            width: '80%',
                             // height: '95%',
                             background: 'transparent',
                             objectfit: 'contain',
                             opacity: 3,
                             marginTop: '15%',
-                            // marginRight: '10%',
                             borderRadius: '25px',
                         }}
                         src='https://grupoplatino.blob.core.windows.net/develop/excavadora2.png' className='img-fluid shadow-4' alt='Sany' />

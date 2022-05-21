@@ -17,7 +17,7 @@ const Footer = () => {
                     height: '10px',
                     opacity: 1,
                     borderRadius: '25px',
-                    marginTop: '1em',
+                    // marginTop: '1em',
                     background: '#F72F26',
                     borderColor: '#F72F26',
                 }}
