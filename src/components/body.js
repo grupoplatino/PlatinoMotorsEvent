@@ -60,7 +60,7 @@ const Body = () => {
                                     }}
                                 ></hr>
                                 <h1>Lugar:</h1>
-                                <h2>Anillo <b>peroférico</b></h2>
+                                <h2>Anillo <b>periférico</b></h2>
                                 <br />
                                 <p
                                     style={{
@@ -102,7 +102,6 @@ const Body = () => {
                             background: 'transparent',
                             objectfit: 'contain',
                             opacity: 3,
-                            // display: 'flexbox',
                             marginTop: '5%',
                             marginRight: '10%',
                             borderRadius: '25px',
