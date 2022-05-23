@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/PlatinoMotorsEvent/static/css/main.8a2fe495.css",
-    "main.js": "/PlatinoMotorsEvent/static/js/main.54f079ba.js",
+    "main.css": "/PlatinoMotorsEvent/static/css/main.56703c20.css",
+    "main.js": "/PlatinoMotorsEvent/static/js/main.06fa9288.js",
     "static/js/787.7c4dfacb.chunk.js": "/PlatinoMotorsEvent/static/js/787.7c4dfacb.chunk.js",
+    "static/media/logo-pm.png": "/PlatinoMotorsEvent/static/media/logo-pm.33a994f1d3f47c2c96b8.png",
     "index.html": "/PlatinoMotorsEvent/index.html",
-    "main.8a2fe495.css.map": "/PlatinoMotorsEvent/static/css/main.8a2fe495.css.map",
-    "main.54f079ba.js.map": "/PlatinoMotorsEvent/static/js/main.54f079ba.js.map",
+    "main.56703c20.css.map": "/PlatinoMotorsEvent/static/css/main.56703c20.css.map",
+    "main.06fa9288.js.map": "/PlatinoMotorsEvent/static/js/main.06fa9288.js.map",
     "787.7c4dfacb.chunk.js.map": "/PlatinoMotorsEvent/static/js/787.7c4dfacb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a2fe495.css",
-    "static/js/main.54f079ba.js"
+    "static/css/main.56703c20.css",
+    "static/js/main.06fa9288.js"
   ]
 }
