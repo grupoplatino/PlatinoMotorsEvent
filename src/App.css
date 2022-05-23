@@ -1,11 +1,15 @@
-html,
-body {
-  height: 100%;
-  font-family: Poppins,
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  object-fit: contain;
+  height: 100%;
+  font-family: Poppins;
+  margin: 0;
+}
+
+#card-invite {
   height: 100%;
   width: 100%;
   background-color: antiquewhite;
@@ -13,7 +17,24 @@ body {
   margin-right: auto;
   background: url('https://grupoplatino.blob.core.windows.net/develop/fondo.png') no-repeat center center fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+}
 
+.hr-style{
+  height: 2px !important;
+  opacity: 1;
+}
+
+.bg-opacity{
+  background-color: rgb(248, 248, 248, 0.7);
+}
+
+.head-one{
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 
