@@ -3,6 +3,9 @@ import { send } from 'emailjs-com';
 import { Button, Container, Row, Col, Image, Modal, Form } from 'react-bootstrap'; // Stack,
 import sany from '../assets/sany-logo.png'
 import logo from '../assets/logo-pm.png'
+import Maps from '../common/google_map'
+
+
 // "homepage": "https://grupoplatino.github.io/PlatinoMotorsEvent/",
 
 const Body = () => {
@@ -58,12 +61,20 @@ const Body = () => {
                         }}
                         src={logo} />
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body >
                     <h5>Confirmación enviada correctamente.</h5>
                     <p>Felicidades, tu confirmación de asistencia se ha enviado correctamente.</p>
-                    <div className="d-flex flex-row-reverse">
-                            <Button style={{ marginRight: 10 }} variant="outline-danger" onClick={handleCloseErrModal}>Cerrar</Button>
+                    <div style={{
+                        width: '100%',
+                        height: '320px',
+                    }}>
+                        {/* <h4>Ubicación del Evento</h4> */}
+                        <Maps />
                     </div>
+                    <div className="d-flex flex-row-reverse">
+                        <Button style={{ marginRight: 10 }} variant="outline-danger" onClick={handleCloseErrModal}>Cerrar</Button>
+                    </div>
+
                 </Modal.Body>
             </Modal>
 
@@ -140,8 +151,8 @@ const Body = () => {
                                                 fontWeight: 'normal',
                                             }}
                                         >
-                                            Zona la cañada, <br />
-                                            frente a Dirstribuidora itsmania.
+                                            Zona la Cañada, <br />
+                                            frente a Distribuidora Itsmania.
                                         </p>
                                     </div>
                                 </div>
