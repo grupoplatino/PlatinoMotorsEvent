@@ -27,7 +27,7 @@ const Footer = () => {
                     spaceBetween: '10px',
                     fontfamily: 'Poppins',
                 }}>
-                <Col md="auto" className="p-0 d-none d-md-block"><FaGlobe color="black" /></Col>
+                <Col xs="13" md="auto" className="p-0 d-none d-md-block"><FaGlobe color="black" /></Col>
                 <Col xs="12" md="auto">
                     <h5 className="text-sm-left"
                         style={{

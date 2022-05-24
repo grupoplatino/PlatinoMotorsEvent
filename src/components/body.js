@@ -3,7 +3,7 @@ import { send } from 'emailjs-com';
 import { Button, Container, Row, Col, Image, Modal, Form } from 'react-bootstrap'; // Stack,
 import sany from '../assets/sany-logo.png'
 import logo from '../assets/logo-pm.png'
-import Maps from '../common/google_map'
+import Maps from '../common/google_maps'
 
 
 // "homepage": "https://grupoplatino.github.io/PlatinoMotorsEvent/",
@@ -29,6 +29,7 @@ const Body = () => {
         send(
             'service_ltp2k3h',
             'template_qfzl4n1',
+            // 'template_1dghlio',
             toSend,
             'user_rIgkpBy74HbPtpBcf5maa'
         )
@@ -68,7 +69,7 @@ const Body = () => {
                         width: '100%',
                         height: '320px',
                     }}>
-                        {/* <h4>Ubicación del Evento</h4> */}
+                        <h4>Ubicación del Evento</h4>
                         <Maps />
                     </div>
                     <div className="d-flex flex-row-reverse">

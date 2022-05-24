@@ -11,8 +11,12 @@ function Maps() {
         "width": '100%',
         "height": '280px'
     };
+
     const center = {
         lat: 14.04664181701892, lng: -87.18880655738896
+    };
+    const showInMapClicked = () => {
+        window.open("https://maps.google.com?q=" + center.lat + "," + center.lng);
     };
 
     return (
@@ -20,6 +24,7 @@ function Maps() {
             googleMapsApiKey="AIzaSyDaXyX_LvkVMSM0xId6uJIwqfu-Euw-gYA">
             <GoogleMap
                 mapContainerStyle={containerStyle}
+                onClick={showInMapClicked}
                 center={{
                     name: 'Platino Motors',
                     lat: parseFloat(center.lat),
@@ -28,7 +33,7 @@ function Maps() {
                 }}
                 zoom={17}>
                 <Marker
-                    key={2}
+                    key={1}
                     position={{
                         name: "Platino Motors",
                         lat: parseFloat(center.lat),
